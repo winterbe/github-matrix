@@ -2,7 +2,10 @@ package com.winterbe.matrix;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
+import org.springframework.util.Assert;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -27,14 +30,20 @@ public class GithubScheduler {
 
     private static final int MAX_CACHE_SIZE = 1000;
 
+    @Autowired
+    private Environment env;
+
     private ScheduledExecutorService scheduler;
 
-    private GithubCollector collector = new GithubCollector();
+    private GithubCollector collector;
 
     private ConcurrentMap<String, Drop> cache = new ConcurrentHashMap<>();
 
     @PostConstruct
     public void start() {
+        String apiToken = env.getProperty("apiToken");
+        Assert.notNull(apiToken, "apiToken must be present");
+        collector = new GithubCollector(apiToken);
         scheduler = Executors.newSingleThreadScheduledExecutor();
         scheduler.scheduleWithFixedDelay(this::collectLatest, 0, 10, TimeUnit.SECONDS);
         LOG.info("scheduler started");
