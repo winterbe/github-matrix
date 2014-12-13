@@ -1,0 +1,7 @@
+## OSX
+.DS_Store
+
+## INTELLIJ
+.idea
+*.iml
+target

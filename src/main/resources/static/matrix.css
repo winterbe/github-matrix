@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+canvas {
+    display: block;
+}
+
+.controls {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 110px;
+    line-height: 30px;
+    text-align: right;
+    padding: 5px 10px;
+    border-top-left-radius: 8px;
+    background: rgba(0,0,0,0.4);
+}
+
+.controls a {
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5px;
+    opacity: 0.6;
+}
+
+.controls a:hover {
+    opacity: 1.0;
+}
+
+.play-toggle {
+    margin-right: 20px !important;
+    font-size: 18px !important;
+}
