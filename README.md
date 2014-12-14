@@ -26,3 +26,6 @@ Feel free to [fork](https://github.com/winterbe/github-matrix/fork) this project
 ### License
 
 The source code is published under the MIT license. If you reuse parts of the code for your own projects please preserve information about me as original author visible in your application.
+
+
+<img src="http://winterbe.com/image/matrix-has-you.gif">
