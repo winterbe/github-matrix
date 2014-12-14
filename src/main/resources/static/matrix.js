@@ -29,7 +29,7 @@
                     data.push(new Drop(drop));
                 });
 
-                if (!Pool.ready && data.length >= maxPoolSize) {
+                if (!Pool.ready && data.length >= (maxPoolSize / 2)) {
                     console.log('pool is ready');
                     Pool.onReady.call(root);
                     Pool.ready = true;
@@ -89,7 +89,7 @@
     var Matrix = function (options) {
         var canvas = options.canvas,
             ctx = canvas.getContext("2d"),
-            pool = new Pool(100),
+            pool = new Pool(200),
             that = this,
             interval,
             numColumns,
