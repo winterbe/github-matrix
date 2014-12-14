@@ -11,7 +11,7 @@ The GitHub [Matrix](http://en.wikipedia.org/wiki/The_Matrix) shows a constant st
 
 ### Be your own operator
 
-The tool is a [Spring Boot](http://projects.spring.io/spring-boot/) webapp written in Java 8. You need JDK 8 + Maven 3 preinstalled in order to run the app by yourself. [Fork](https://github.com/winterbe/github-matrix/fork) and clone the repository to your local machine, then `cd` into the project directory and run the following command:
+The GitHub Matrix is a [Spring Boot](http://projects.spring.io/spring-boot/) webapp written in Java 8. You need JDK 8 + Maven 3 preinstalled in order to run the app by yourself. [Fork](https://github.com/winterbe/github-matrix/fork) and clone the repository to your local machine, then `cd` into the project directory and run the following command:
 
 ```bash
 mvn package
@@ -20,7 +20,7 @@ java -jar target/*.jar -XX:MaxMetaspaceSize=64m -Xmx256m -Djava.awt.headless=tru
 
 ### Compatibility
 
-The frontend is written in JavaScript and HTML5 (Canvas). It's heavily is tested and optimized for current desktop browser versions (Chrome, Firefox, Safari) and mobile iOS Safari. If you find any issues related to Internet Explorer or other browsers, please let me know.
+The GitHub Matrix frontend is written in JavaScript and HTML5 (Canvas). It's heavily tested and optimized for current desktop browser versions (Chrome, Firefox, Safari) and mobile iOS Safari. If you find any issues related to Internet Explorer or other browsers, please let me know.
 
 ### Contribute
 
