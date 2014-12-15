@@ -310,4 +310,9 @@
     });
     matrix.start();
 
+    $('.fu-block')
+        .closest('a')
+        .attr('href', 'https://twitter.com/benontherun')
+        .attr('title', 'Feedback via Twitter');
+
 })();

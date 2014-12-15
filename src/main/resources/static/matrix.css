@@ -41,3 +41,7 @@ canvas {
     margin-right: 20px !important;
     font-size: 18px !important;
 }
+
+.fu-block:before {
+    content: "\f099";
+}
