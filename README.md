@@ -21,7 +21,7 @@ $ mvn package
 $ java -jar target/*.jar -XX:MaxMetaspaceSize=64m -Xmx256m -Djava.awt.headless=true
 ```
 
-<blockquote>You have to create your own GitHub API Token. Go to your GitHub account settings, choose Applications then click Generate new token. Make sure you don't accidentally push your API token to GitHub (as I did in the past). Alternatively just pass the token as system property: java ... -DapiToken="TOKEN"</blockquote>
+<blockquote>You have to create your own GitHub API Token. Go to your GitHub account settings, choose Applications then click Generate new token. Make sure you don't accidentally push your API token to GitHub (as I did in the past). Alternatively just pass the token as system property: java ... -DapiToken=YOUR_API_TOKEN</blockquote>
 
 ## Compatibility
 
