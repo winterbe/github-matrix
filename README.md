@@ -25,7 +25,7 @@ $ java -jar target/*.jar -XX:MaxMetaspaceSize=64m -Xmx256m -Djava.awt.headless=t
 
 ## Compatibility
 
-The GitHub Matrix frontend is written in JavaScript and HTML5 (Canvas). It's heavily tested and optimized for current desktop browser versions (Chrome, Firefox, Safari) and mobile iOS Safari. If you find any issues related to Internet Explorer or other browsers, please let me know.
+The GitHub Matrix frontend is written in JavaScript and HTML5 (Canvas). It's heavily tested and optimized for current desktop browser versions (Chrome, Firefox, Safari) and mobile iOS Safari + Android Chrome. If you find any issues related to Internet Explorer or other browsers, please let me know.
 
 ## Contribute
 
