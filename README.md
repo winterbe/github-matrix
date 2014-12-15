@@ -3,11 +3,11 @@ The GitHub Matrix
 
 <blockquote>The latest commits from GitHub visualized in a Matrix-style animation.</blockquote>
 
-### http://winterbe.com/projects/github-matrix/
-
 <img src="http://winterbe.com/image/matrix-has-you.gif">
 
 The GitHub [Matrix](http://en.wikipedia.org/wiki/The_Matrix) shows a constant stream of latest commits from GitHub. Click on the drops to open the corresponding Revision on GitHub in a new tab. Use the pause/play button at the lower right corner to pause and resume the matrix animation (or press SPACE).
+
+### http://winterbe.com/projects/github-matrix/
 
 <img src="http://winterbe.com/image/matrix.png">
 
