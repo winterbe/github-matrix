@@ -3,7 +3,7 @@ The GitHub Matrix
 
 <blockquote>The latest commits from GitHub visualized in a Matrix-style animation.</blockquote>
 
-## http://winterbe.com/projects/github-matrix/
+### http://winterbe.com/projects/github-matrix/
 
 <img src="http://winterbe.com/image/matrix-has-you.gif">
 
