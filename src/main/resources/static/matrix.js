@@ -23,6 +23,7 @@
 
             $.ajax({
                 url: 'fetch',
+                cache: false,
                 data: {fetchSize: fetchSize}
             }).done(function (result) {
                 $.each(result, function (i, drop) {
