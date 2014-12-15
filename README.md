@@ -16,9 +16,12 @@ The GitHub [Matrix](http://en.wikipedia.org/wiki/The_Matrix) shows a constant st
 The GitHub Matrix is a [Spring Boot](http://projects.spring.io/spring-boot/) webapp written in Java 8. You need JDK 8 + Maven 3 preinstalled in order to run the app by yourself. [Fork](https://github.com/winterbe/github-matrix/fork) and clone the repository to your local machine, then `cd` into the project directory and run the following command:
 
 ```bash
-mvn package
-java -jar target/*.jar -XX:MaxMetaspaceSize=64m -Xmx256m -Djava.awt.headless=true
+$ echo "apiToken=YOUR_API_TOKEN" >> src/main/resources/application.properties 
+$ mvn package
+$ java -jar target/*.jar -XX:MaxMetaspaceSize=64m -Xmx256m -Djava.awt.headless=true
 ```
+
+<blockquote>You have to create your own GitHub API Token. Go to your GitHub account settings, choose Applications then click on Generate new token. Make sure you don't accidentally push your API token to GitHub (as I did in the past <3). Alternatively could also pass token as system property: `java ... -DapiToken="TOKEN"`</blockquote>
 
 ## Compatibility
 
