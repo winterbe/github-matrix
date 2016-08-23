@@ -11,6 +11,8 @@ The GitHub [Matrix](http://en.wikipedia.org/wiki/The_Matrix) shows a constant st
 
 <img src="http://winterbe.com/image/matrix.png">
 
+> You should [follow me on Twitter](https://twitter.com/winterbe_).
+
 ## Screensaver
 
 The GitHub Matrix is also available as [Screensaver](https://github.com/winterbe/github-matrix-screensaver) for Mac OSX. Enjoy!
