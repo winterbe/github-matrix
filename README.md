@@ -11,7 +11,11 @@ The GitHub [Matrix](http://en.wikipedia.org/wiki/The_Matrix) shows a constant st
 
 <img src="http://winterbe.com/image/matrix.png">
 
-> You should [follow me on Twitter](https://twitter.com/winterbe_).
+---
+
+<p align="center">
+<strong>★★★ Like this project? <a href="https://github.com/winterbe/github-matrix/stargazers">Leave a star</a>, <a href="https://twitter.com/winterbe_">follow on Twitter</a> or <a href="https://www.paypal.me/winterbe">donate</a> to support my work! Thanks. ★★★</strong>
+</p>
 
 ## Screensaver
 
